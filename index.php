@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< Updated upstream:index.html
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -428,5 +429,37 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+=======
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<title>Telecommit</title>
+</head>	
+<body>
+  <header class= "container">
+    <div class = "row">
+     <img class= "col-sm-2" src="">
+      <h1 class = "col-sm-2">
+        Products
+      </h1>
+      <h1 class = "col-sm-2">
+        Smart Life
+      </h1>
+      <h1 class = "col-sm-2">
+        Products
+      </h1>
+      <h1 class = "col-sm-2">
+        Assistance services
+      </h1>
+      <nav class= "col-sm-2 text-right">
+      	<p>The group</p>
+        <p>Who we are</p>
+      </nav>
+    </div>
+  </header>
+<?php 
+echo"hope it works";
+?>
+>>>>>>> Stashed changes:index.php
 </body>
 </html>

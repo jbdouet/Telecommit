@@ -1,3 +1,0 @@
-# Telecommit
-
-Soheil

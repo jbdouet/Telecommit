@@ -62,7 +62,7 @@
                   </ul>
                 </li>
                                 
-                <li><a href="contact-us.html">Contact</a></li>
+                <li><a href="contactUs.php">Contact</a></li>
               </ul>
             </div>
     </div>
@@ -422,7 +422,7 @@
             </div>
         </div>
     </footer><!--/#footer-->
-
+	
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>

@@ -62,7 +62,7 @@
                   </ul>
                 </li>
                                 
-                <li><a href="contactUs.php">Contact</a></li>
+                <li><a href="ContactUs.php">Contact</a></li>
               </ul>
             </div>
     </div>

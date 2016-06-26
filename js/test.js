@@ -1,6 +1,6 @@
 
 $(document).ready(ready);
-alert("as");
+
 function showProduct(str) {
     var cat = location.search.split('category=')[1];
 

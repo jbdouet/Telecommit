@@ -37,11 +37,16 @@
 <file name="html5shiv.js" server="C:/wamp/www/Telecommit/" local="130463321260000000" remote="130463321260000000" Dst="2" />
 <file name="jquery-1.11.3.min.js" server="C:/wamp/www/Telecommit/" local="131073293420000000" remote="131073293420000000" Dst="2" />
 <file name="respond.min.js" server="C:/wamp/www/Telecommit/" local="130463321280000000" remote="130463321280000000" Dst="2" />
-<file name="test.js" server="C:/wamp/www/Telecommit/" local="131111151010000000" remote="131111151010000000" Dst="2" />
+<file name="test.js" server="C:/wamp/www/Telecommit/" local="131113137637917660" remote="131113137630000000" Dst="2" />
 <file name="get_assistant_services.js" server="C:/wamp/www/Telecommit/" local="131111474754726533" remote="131111474750000000" Dst="2" />
 <file name="get_assistant_services.js" server="C:/wamp/www/Telecommit" local="131111474754726533" remote="131111474750000000" Dst="2" />
 <file name="get_monitoring_cost.js" server="C:/wamp/www/Telecommit" local="131111894388290202" remote="131111894380000000" Dst="2" />
 <file name="get_monitoring_cost.js" server="C:/wamp/www/Telecommit/" local="131111900096227848" remote="131111900090000000" Dst="2" />
 <file name="get_smartphone_phone.js" server="C:/wamp/www/Telecommit/" local="131111909775333093" remote="131111909770000000" Dst="2" />
 <file name="get_modem_networking.js" server="C:/wamp/www/Telecommit/" local="131112030914521892" remote="131112030910000000" Dst="2" />
+<file name="get_tv_entertainment.js" server="C:/wamp/www/Telecommit/" local="131112298388287701" remote="131112298380000000" Dst="2" />
+<file name="get_home_family.js" server="C:/wamp/www/Telecommit/" local="131112339257998756" remote="131112339250000000" Dst="2" />
+<file name="get_health.js" server="C:/wamp/www/Telecommit/" local="131112348534896646" remote="131112348530000000" Dst="2" />
+<file name="validator.js" server="C:/wamp/www/Telecommit/" local="131048672740000000" remote="131048672740000000" Dst="2" />
+<file name="insert_contact.js" server="C:/wamp/www/Telecommit/" local="131114029399972990" remote="131114029390000000" Dst="2" />
 </dwsync>

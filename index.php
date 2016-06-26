@@ -81,7 +81,7 @@
             </ol>
           <div class="carousel-inner">
 
-                <div class="item active" style="background-image: url(images/slider/slide-responsive-dark.jpg)">
+                <div class="item active" style="background-image: url(Images/slider/slide-responsive-dark.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -101,7 +101,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/slide-team-dark.jpg)">
+                <div class="item" style="background-image: url(Images/slider/slide-team-dark.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">
@@ -122,7 +122,7 @@
                     </div>
                 </div><!--/.item-->
 
-                <div class="item" style="background-image: url(images/slider/main-bg.jpg)">
+                <div class="item" style="background-image: url(Images/slider/main-bg.jpg)">
                     <div class="container">
                         <div class="row slide-margin">
                             <div class="col-sm-6">

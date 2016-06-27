@@ -6,7 +6,7 @@ $("document").ready(function(){
             dataType: "json", //type of data
             crossDomain: true,
             //url: "php/get_smartphone_phone.php", //Relative or absolute path to file.php file
-            url: "http://telecommit.altervista.org/Telecommit/php/get_smartphone_phone.php"
+            url: "http://telecommit.altervista.org/Telecommit/php/get_smartphone_phone.php",
             success: function(response) {
 				
 				var phone=JSON.parse(JSON.stringify(response));

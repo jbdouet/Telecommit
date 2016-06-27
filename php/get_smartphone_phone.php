@@ -4,7 +4,8 @@
 $username= "root";
 $dbname= "telecom";
 $server= "localhost";
-$password= "";*/
+*/
+$password= "";
 $username= "telecommit";
 $dbname= "my_telecommit";
 $server= "localhost";

@@ -600,6 +600,12 @@ input.search-form:hover {
   width: 100%;
 }
 
+.homepage #recent-works .container .row .col-xs-12.col-sm-4.col-md-3 .recent-work-wrap .overlay .recent-work-inner .preview {
+ color: ;
+ font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+ font-size:large;
+}
+
 .recent-work-wrap .recent-work-inner{
   top: 0;
   background: transparent;
@@ -2528,6 +2534,9 @@ shortcodes page css
 
 
 
-
-
-
+.homepage #recent-works .container .row .col-xs-12.col-sm-4.col-md-3 .recent-work-wrap .overlay .recent-work-inner .preview {
+	color:#9A0507;
+	font-size:12px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight:bold;
+}

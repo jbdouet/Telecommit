@@ -42,7 +42,7 @@
 <file name="get_assistant_services.js" server="C:/wamp/www/Telecommit" local="131111474754726533" remote="131111474750000000" Dst="2" />
 <file name="get_monitoring_cost.js" server="C:/wamp/www/Telecommit" local="131111894388290202" remote="131111894380000000" Dst="2" />
 <file name="get_monitoring_cost.js" server="C:/wamp/www/Telecommit/" local="131111900096227848" remote="131111900090000000" Dst="2" />
-<file name="get_smartphone_phone.js" server="C:/wamp/www/Telecommit/" local="131111909775333093" remote="131111909770000000" Dst="2" />
+<file name="get_smartphone_phone.js" server="C:/wamp/www/Telecommit/" local="131116423669214534" remote="131116423660000000" Dst="2" />
 <file name="get_modem_networking.js" server="C:/wamp/www/Telecommit/" local="131112030914521892" remote="131112030910000000" Dst="2" />
 <file name="get_tv_entertainment.js" server="C:/wamp/www/Telecommit/" local="131112298388287701" remote="131112298380000000" Dst="2" />
 <file name="get_home_family.js" server="C:/wamp/www/Telecommit/" local="131112339257998756" remote="131112339250000000" Dst="2" />
@@ -50,4 +50,5 @@
 <file name="validator.js" server="C:/wamp/www/Telecommit/" local="131048672740000000" remote="131048672740000000" Dst="2" />
 <file name="insert_contact.js" server="C:/wamp/www/Telecommit/" local="131114029399972990" remote="131114029390000000" Dst="2" />
 <file name="get_promoted_smart_life_services.js" server="C:/wamp/www/Telecommit/" local="131113537498649579" remote="131113537490000000" Dst="2" />
+<file name="get_promoted_devices.js" server="C:/wamp/www/Telecommit/" local="131116376797298341" remote="131116376790000000" Dst="2" />
 </dwsync>

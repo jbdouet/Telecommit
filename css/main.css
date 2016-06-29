@@ -2540,3 +2540,12 @@ shortcodes page css
 	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-weight:bold;
 }
+
+.sidebar
+{
+	
+ width: 180px;
+    height: 290px;
+    background-color: #819FCD;
+    float: left;	
+}

@@ -1,10 +1,6 @@
 <?php
 
-/*$password= "";
-$username= "root";
-$dbname= "telecom";
-$server= "localhost";
-*/
+
 $password= "";
 $username= "telecommit";
 $dbname= "my_telecommit";

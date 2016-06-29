@@ -1,5 +1,5 @@
 $("document").ready(function(){
-	
+	alert("hgjh");
  $.ajax({
 	
         method: "POST",
@@ -9,15 +9,16 @@ $("document").ready(function(){
             
             success: function(response) {
 				
-				var promoteddevices=JSON.parse(JSON.stringify(response));
+				alert("hgjh");
+				var promoted=JSON.parse(JSON.stringify(response));
 				var row = "";
     
-				for (var i=0; i<promoteddevices.length; i++) {
-				row+= insert_into_row(promoteddevices, i);
+				for (var i=0; i<promoted.length; i++) {
+				row+= insert_into_row(promoted, i);
         
 			}
 
-			$("#promoteddevices").html(row);
+			$("#promoted").html(row);
                 
             },
             error: function(request,error) 
@@ -49,15 +50,16 @@ function get_url_param(param) {
     return requestedParam;
 } 
 
-function insert_into_row(promoteddevices, index) {
+function insert_into_row(promoted, index) {
     var row="<div class='col-md-6'>";
     row+="<table align='center' style='table-layout:fixed; width:240px'>";
-    row+="<tr><td align='center'><img class='img-responsive' src='" +"Images/"+promoteddevices[index].id+".jpg"+ "' style='height: 250px'></td></tr>";
-    row+="<tr><td style='overflow:hidden' align='center'><h3>" + promoteddevices[index].name + "</h3></td></tr>";
+    row+="<tr><td align='center'><img class='img-responsive' src='" +"Images/"+promoted[index].id+".jpg"+ "' style='height: 250px'></td></tr>";
+    row+="<tr><td style='overflow:hidden' align='center'><h3>" +promoted[index].name+ "</h3></td></tr>";
     
-    row+="<td style='overflow:hidden' align='center'><h5>" + promoteddevices[index].description + "</h5></td>";
+    
+    row+="<td style='overflow:hidden' align='center'><h5>" +promoted[index].description+ "</h5></td>";
     row+="</tr>";
-    row+="<tr><td align='center'><a href='get_tablet.html?tablet=" + promoteddevices[index].id + "' class='animation animated-item-3' role='button'>VIEW			          </a></td></tr>";
+    row+="<tr><td align='center'><a href='get_tablet.html?tablet=" +promoted[index].id+ "' class='animation animated-item-3' role='button'>VIEW</a></td></tr>";
     row+="</table></div>";
 
     return row;

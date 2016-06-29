@@ -1,5 +1,5 @@
 $("document").ready(function(){
-$('#Load').load("http://telecommit.altervista.org/Telecommit/php/get_smartphone_phone.php");	
+//$('#Load').load("http://telecommit.altervista.org/Telecommit/php/get_smartphone_phone.php");	
  $.ajax({
 	
         method: "POST",

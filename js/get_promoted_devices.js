@@ -1,5 +1,5 @@
 $("document").ready(function(){
-	alert("hgjh");
+	
  $.ajax({
 	
         method: "POST",
@@ -9,7 +9,7 @@ $("document").ready(function(){
             
             success: function(response) {
 				
-				alert("hgjh");
+				
 				var promoted=JSON.parse(JSON.stringify(response));
 				var row = "";
     

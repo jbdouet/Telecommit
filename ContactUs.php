@@ -54,7 +54,7 @@
 							<li><a href="SmartLife.html">Smart Life</a></li>
 						</ul>
 					</li>
-					<li><a href="contact-us.html">Contact</a></li>
+					<li><a href="ContactUs.php">Contact</a></li>
 				</ul>
 			</div>
 		</div>

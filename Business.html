@@ -1,31 +1,37 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Monitoring Cost</title>
 
-<!-- core CSS -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>TheGroup</title>
+	
+	<!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
-    
-     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script language="javascript" type="text/javascript" src="js/get_monitoring_cost.js"></script>
+    <script src="phonegap.js"></script>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+	
+	
+</head><!--/head-->
 
+<body class="homepage">
 
-</head>
-
-<body>
-
- <header id="header">
+    <header id="header">
 <nav class="navbar navbar-inverse" role="banner">
       <div class="container">
             <div class="navbar-header">
@@ -35,7 +41,7 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="index.html">Home</a></li>
                 
-                 <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <i class="fa fa-angle-down"></i></a>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <i class="fa fa-angle-down"></i></a>
                   <ul class="dropdown-menu">
                     <li><a href="SmartphonesAndPhones.html">Smartphones and Phones</a></li>
                     <li><a href="TabletsAndComputers.html">Tablets and computers</a></li>
@@ -70,29 +76,50 @@
         <!--/.top-bar-->        <!--/nav-->
 		
     </header><!--/header-->
-    
-     <section id="main-slider" class="no-margin">
-        <div class="carousel slide">
-           
-          <div class="carousel-inner">
- 			<div class="item active" style="background-image: url(Images/slider/work-item-2.jpg)">
-                    
-             </div><!--/.item-->
-		</div>
+	
+	<section id="main-slider" class="no-margin">
+	<div class="carousel slide">
+		<div class="carousel-inner">
+			<div class="item active" style="background-image: url(Images/Slider/business.jpg)"> </div>
+			<!--/.item--> 
+			
+			 <div class=" container col-md-10 ">
+			 <br>
+			 <a href="News.html" class="btn btn-info" role="button">News</a>
+			   <a href="Governance.html" class="btn btn-info" role="button">Governance</a>
+			   <a href="Business.html" class="btn btn-info" role="button">Business</a>
+			
+			</div>
+			  
+			<section id="recent-works" >
+				<div class="container">
+					<div class="center wow fadeInDown">
+						<div class="col-md-6"> 
+						<br/>
+							<img class="img-responsive" src="Images/business1.jpg"  alt="">
+						</div>
+						
+						<div class="col-md-6">
+						<br/>
+						 	<img class="img-responsive" src="Images/business2.jpg"  alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section>
+				<div class="container">
+					<div class="center wow fadeInDown">
+							<p class="lead">
+							  Our company is breaking new grounds not only by providing the cutting edge technology, but also extensively expansing                               its customer variety around the world.
+                              The goal is to collaborate with public institutions and business corporate users in future.
+							</p>
+					</div>
+				</div>
+			</section>
+	</div>
 	</div>
 </section>
-
-
-<div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-        	<div class="row">
-            	<div class="widget">
-                  	 <h2 class="text-primary">Monitoring Costs</h2>
-                      	 <div class="container" id="monitoringcost">
-                     
- 						</div>
-				</div>
-			</div>
-		</div>
 
 <footer id="footer" class="midnight-blue">
         <div class="container">
@@ -111,6 +138,7 @@
             </div>
         </div>
     </footer><!--/#footer-->
-
 </body>
 </html>
+	
+	

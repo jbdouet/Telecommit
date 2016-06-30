@@ -55,6 +55,9 @@
 						</ul>
 					</li>
 					<li><a href="ContactUs.php">Contact</a></li>
+					<li><a href="Thegroup.html">The group</a></li>
+				    <li><a href="WhoWeAre.html">Who we are</a></li>
+					
 				</ul>
 			</div>
 		</div>
@@ -143,6 +146,8 @@
 	
 </div>
 <!-- /.container--> 
+
+
 
 <script src="css/bootstrap.3.3.6.min.css"></script> 
  
